@@ -3,7 +3,7 @@ const nuke = new discord.Client();
 
 
 nuke.on("ready", () =>{
-console.log("This bot has been developed by sigron666.")
+console.log("This bot has been developed by Nadav.")
 console.log(`${nuke.user.tag} is online.`);
 nuke.user.setPresence({ game: { name: `bye` }, type: 0 }); //status is changeable//
 });
